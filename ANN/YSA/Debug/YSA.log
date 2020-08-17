@@ -1,1 +1,16 @@
-﻿  YSA.vcxproj -> C:\Users\Nahrime\source\repos\YSA(Ödevden sonra)\Debug\YSA.exe
+﻿  MyForm.cpp
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(20): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(25): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(27): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(48): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(288): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(293): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(359): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(364): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(436): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(438): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(539): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+c:\users\nahrime\source\repos\ysa(ödevden sonra)\ysa\myform.cpp(541): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Artificial_Neural_Networks.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  YSA.vcxproj -> C:\Users\Nahrime\source\repos\YSA(Ödevden sonra)\Debug\YSA.exe

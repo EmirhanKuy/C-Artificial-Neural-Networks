@@ -466,7 +466,8 @@ System::Void MyForm::binaryToolStripMenuItem1_Click(System::Object^  sender, Sys
 				//Sign
 				net > 0 ? sign = 1.0 : sign = -1.0;
 				//Expected Value
-				CC[i] == (j / 3) + 1 ? d = 1.0 : d = -1.0;
+				//CC[i] == (j / 3) + 1 ? d = 1.0 : d = -1.0;
+				CC[i] == colorIndex[(j / 3)] ? d = 1.0 : d = -1.0;
 				if (d != sign)
 				{
 					totalError = true;
@@ -569,7 +570,9 @@ System::Void MyForm::continiousToolStripMenuItem1_Click(System::Object^  sender,
 				//F'(net) = (1-o*o) / 2
 				fnetDer = (1 - Math::Pow(fnet, 2));
 				//Expected Value
-				CC[i] == colorIndex[j / 3 + 1] ? d = 1.0 : d = -1.0;
+				CC[i] == colorIndex[(j / 3)] ? d = 1.0 : d = -1.0;
+				//CC[i] == (j / 3) + 1 ? d = 1.0 : d = -1.0;
+				//CC[colorIndex[(i / 3)]] == colorIndex[(j / 3)] ? d = 1.0 : d = -1.0;
 
 				W[j] += 0.5 * c * (d - fnet) * fnetDer * CX[i];
 				W[j + 1] += 0.5 * c * (d - fnet) * fnetDer * CY[i];
